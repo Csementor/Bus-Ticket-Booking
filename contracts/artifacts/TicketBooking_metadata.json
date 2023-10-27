@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "seatNumbers",
+						"type": "uint256[]"
+					}
+				],
+				"name": "bookSeats",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "seatNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "checkAvailability",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myTickets",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "showAvailableSeats",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/seatbook.sol": "TicketBooking"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/seatbook.sol": {
+			"keccak256": "0x13e6346d8e4d8fcf774610ec1920b93426119282f957ccef17a76b1e747c53fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0607db9d6fa09716433897af06db15532a004599826d5203a71910fa62234729",
+				"dweb:/ipfs/QmcmLenQJHy5L4JUeqGYVwnNcVhdH9JhGDLwhakqpMM4Eg"
+			]
+		}
+	},
+	"version": 1
+}
